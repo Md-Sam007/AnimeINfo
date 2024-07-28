@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/AnimeINfo/static/js/main.cf40a44d.js",
+    "index.html": "/AnimeINfo/index.html",
+    "main.cf40a44d.js.map": "/AnimeINfo/static/js/main.cf40a44d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cf40a44d.js"
+  ]
+}
