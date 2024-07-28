@@ -1,0 +1,446 @@
+
+
+body {
+    background-color: #301934;
+    transition: 2s;
+}
+
+nav {
+    display: flex;
+    gap: 7vmin;
+}
+
+.Icon {
+    font-size: 4vmin;
+    color: #7FB3D5;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.Icon:hover {
+    cursor: pointer;
+}
+
+.Search {
+    height: 5vh;
+    width: 40vw;
+    margin-top: 8vmin;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    position: relative;
+}
+
+.Search-but {
+    height: 6.7vh;
+    width: 10vmin;
+    top: 10vmin;
+    left: 56vmax;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    background-color: whitesmoke;
+}
+
+.Search-but:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fourComponents button {
+    position: relative;
+    top: -7vmin;
+    background-color: #301934;
+    color: whitesmoke;
+    left: 90vmin;
+    margin-left: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.but:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 40px 40px 40px 60px;
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    align-self: auto;
+    gap: 15px;
+}
+
+.IMG {
+    height:400px; 
+    width:200px;
+    margin: 0px 50px 0px 0px;
+    text-align: center;
+}
+
+img {
+    background-color: rgb(76, 55, 119);
+    flex: 1;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.IMG:hover {
+    opacity: .5;
+}
+
+.title {
+    font-family: cursive;
+    font-size: 20px;
+    word-break: break-all;
+}
+
+.title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.page {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    color: rgb(195, 94, 31);
+    position: relative;
+    margin-top: 40px;
+    left: 40vw;
+    font-size: 30px;
+}
+
+button {
+    left: 90vw;
+    border: none;
+    color: rgb(195, 94, 31);
+    background-color: whitesmoke;
+}
+
+.animePannel:hover {
+    cursor: pointer;
+}
+
+.second-board {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    position: relative;
+    margin: 6vmin;
+    height: auto;
+    width: 92vw;
+    border-radius: 20px;
+    overflow: visible;
+}
+
+.overflow {
+    width: 42vw;
+    overflow-wrap: break-word;
+}
+
+ul {
+    list-style: none;
+}
+
+.title2 {
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.list {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.colon {
+    font-size: 25px;
+    margin-top: 85px;
+}
+
+.title3 {
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.values {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.char {
+    margin-left: 38vw;
+    width: 92vw;
+    font-size: 35px;
+    font-style: oblique;
+}
+
+.roll {
+    margin-left: 5vw;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.images {
+    height: auto;
+    padding: 30px;
+    width: 92vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.characterIMG {
+    border-radius: 10px 70px;
+}
+@media only screen and (max-width: 360px) {
+    body {
+        background-color: #301934;
+        position: relative;
+    }
+    .Icon {
+        position: absolute;
+        font-size: 25px;
+        left: 25px;
+        color: #4b5c68;
+        margin-top: 0px;
+    }
+    .Search {
+        position: relative;
+        left: 2px;
+        top: 40px;
+        height: 7vh;
+        width: 85vw;
+        margin-top: 18vmin;
+        background-color: whitesmoke;
+        border-radius: 15px;
+        border: none;
+        padding: 8px;
+    }
+    .Search-but {
+        height: 6.7vh;
+        width: 10vmin;
+        top: 33vmin;
+        left: 35vmax;
+        border: none;
+        border-radius: 20px;
+        position: absolute;
+        background-color: whitesmoke;
+    }
+    .fourComponents button {
+        position: relative;
+        top: 18vmin;
+        background-color: #301934;
+        color: whitesmoke;
+        left: 10vmin;
+        border: none;
+        border-radius: 20px;
+        font-size: 20px;
+        margin: 0px 20px 15px 8px; 
+    }
+    .card {
+        display: flex;
+        margin-left: 2px;
+        margin-right: 8vmin;
+        margin-top: 60px;
+        padding: 20px;
+        border-radius: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+        height: auto;
+        width: auto;
+        align-self: auto;
+    }
+    .IMG {
+        height: 50vh;
+        width: 75vw;
+    }
+    .second-board {
+        background-color: whitesmoke;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        position: relative;
+        margin-left: 0;
+        height: auto;
+        width: 89vw;
+        border-radius: 20px;
+        overflow: visible;
+    }
+    .Second-IMG{
+        width:89vw;
+    }
+    .title2 {
+        margin-top: 15px;
+        margin-right: 0;
+        font-size: 30px;
+        font-family: cursive;
+        font-style: italic;
+    }
+    .list {
+        margin-left: 0px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-style: oblique;
+        margin-right: 0;
+    }
+    .colon {
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    .title3 {
+        margin-top: 10px;
+        margin-left: 0;
+        font-size: 22px;
+        font-family: cursive;
+        font-style: italic;
+    }
+    .values {
+        font-size: 18px;
+        font-style: oblique;
+        margin-top: 10px;
+    }
+    .char {
+        margin-left: 15vw;
+        margin-bottom: 20px;
+        color: rgb(183, 111, 60);
+        width: 85vw;
+        font-size: 30px;
+        font-style: oblique;
+    }
+}
+@media only screen and (max-width: 460px) {
+    body {
+        background-color: #301934;
+        position: relative;
+    }
+    .Icon {
+        position: absolute;
+        font-size: 28px;
+        left: 30px;
+        color: #4b5c68;
+        margin-top: 0px;
+    }
+    .Search {
+        position: relative;
+        left: 2px;
+        top: 45px;
+        height: 7vh;
+        width: 90vw;
+        margin-top: 16vmin;
+        background-color: whitesmoke;
+        border-radius: 15px;
+        border: none;
+        padding: 10px;
+    }
+    .Search-but {
+        height: 6.7vh;
+        width: 10vmin;
+        top: 30vmin;
+        left: 78vmin;
+        border: none;
+        border-radius: 20px;
+        position: absolute;
+        background-color: whitesmoke;
+    }
+    .fourComponents button {
+        position: relative;
+        top: 18vmin;
+        background-color: #301934;
+        color: whitesmoke;
+        left: 12vmin;
+        border: none;
+        border-radius: 20px;
+        font-size: 22px;
+        margin: 0px 22px 15px 10px; 
+    }
+    .card {
+        display: flex;
+        margin-left: 3px;
+        margin-right: 8vmin;
+        margin-top: 65px;
+        padding: 25px;
+        border-radius: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+        height: auto;
+        width: auto;
+        align-self: auto;
+    }
+    .IMG {
+        height: 52vh;
+        width: 78vw;
+    }
+    .second-board {
+        background-color: whitesmoke;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        position: relative;
+        margin-left: 0;
+        height: auto;
+        width: 92vw;
+        border-radius: 20px;
+        overflow: visible;
+    }
+    .Second-IMG {
+        width: 92vw;
+    }
+    .title2 {
+        margin-top: 15px;
+        margin-right: 0;
+        font-size: 32px;
+        font-family: cursive;
+        font-style: italic;
+    }
+    .list {
+        margin-left: 0px;
+        margin-top: 30px;
+        font-size: 22px;
+        font-style: oblique;
+        margin-right: 0;
+    }
+    .colon {
+        font-size: 22px;
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    .title3 {
+        margin-top: 10px;
+        margin-left: 0;
+        font-size: 24px;
+        font-family: cursive;
+        font-style: italic;
+    }
+    .values {
+        font-size: 20px;
+        font-style: oblique;
+        margin-top: 10px;
+    }
+    .char {
+        margin-left: 18vw;
+        margin-bottom: 20px;
+        color: rgb(183, 111, 60);
+        width: 88vw;
+        font-size: 32px;
+        font-style: oblique;
+    }
+}
