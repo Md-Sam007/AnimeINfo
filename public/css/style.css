@@ -208,7 +208,9 @@ ul {
 .characterIMG {
     border-radius: 10px 70px;
 }
-@media only screen and (max-width: 360px) {
+
+        width: 85vw;
+@media only screen and (max-width: 460px) {
     body {
         background-color: #301934;
         position: relative;
@@ -255,10 +257,10 @@ ul {
     }
     .card {
         display: flex;
-        margin-left: 2px;
+        margin-left: 8vmin;
         margin-right: 8vmin;
         margin-top: 60px;
-        padding: 20px;
+        padding: 10px;
         border-radius: 20px;
         flex-direction: column;
         flex-wrap: wrap;
@@ -275,16 +277,17 @@ ul {
         background-color: whitesmoke;
         display: flex;
         flex-wrap: wrap;
-        gap: 2px;
+        padding: 0;
+        gap:5px;
         position: relative;
         margin-left: 0;
         height: auto;
-        width: 92vw;
+        width: 95vw;
         border-radius: 20px;
         overflow: visible;
     }
     .Second-IMG{
-        width:89vw;
+        width:95vw;
     }
     .title2 {
         margin-top: 15px;
@@ -294,16 +297,19 @@ ul {
         font-style: italic;
     }
     .list {
-        margin-left: 0px;
-        margin-top: 30px;
+        
+        
+        margin:30px 0 0 0;
         font-size: 20px;
+        padding: 0;
         font-style: oblique;
-        margin-right: 0;
+        
     }
     .colon {
         font-size: 20px;
-        margin-top: 60px;
-        margin-left: 0px;
+        padding: 0;
+        margin: 60px 0px 0px 0px;
+        
     }
     .title3 {
         margin-top: 10px;
@@ -326,254 +332,5 @@ ul {
         font-style: oblique;
     }
 }
-@media only screen and (max-width: 460px) {
-    body {
-        background-color: #301934;
-        position: relative;
-    }
-    .Icon {
-        position: absolute;
-        font-size: 28px;
-        left: 30px;
-        color: #4b5c68;
-        margin-top: 0px;
-    }
-    .Search {
-        position: relative;
-        left: 2px;
-        top: 45px;
-        height: 7vh;
-        width: 90vw;
-        margin-top: 16vmin;
-        background-color: whitesmoke;
-        border-radius: 15px;
-        border: none;
-        padding: 10px;
-    }
-    .Search-but {
-        height: 6.7vh;
-        width: 10vmin;
-        top: 30vmin;
-        left: 78vmin;
-        border: none;
-        border-radius: 20px;
-        position: absolute;
-        background-color: whitesmoke;
-    }
-    .fourComponents button {
-        position: relative;
-        top: 18vmin;
-        background-color: #301934;
-        color: whitesmoke;
-        left: 12vmin;
-        border: none;
-        border-radius: 20px;
-        font-size: 22px;
-        margin: 0px 22px 15px 10px; 
-    }
-    .card {
-        display: flex;
-        margin-left: 3px;
-        margin-right: 8vmin;
-        margin-top: 65px;
-        padding: 25px;
-        border-radius: 20px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        background-color: whitesmoke;
-        height: auto;
-        width: auto;
-        align-self: auto;
-    }
-    .IMG {
-        height: 52vh;
-        width: 78vw;
-    }
-    .second-board {
-        background-color: whitesmoke;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2px;
-        position: relative;
-        margin-left: 0;
-        height: auto;
-        width: 92vw;
-        border-radius: 20px;
-        overflow: visible;
-    }
-    .Second-IMG {
-        width: 92vw;
-    }
-    .title2 {
-        margin-top: 15px;
-        margin-right: 0;
-        font-size: 32px;
-        font-family: cursive;
-        font-style: italic;
-    }
-    .list {
-        margin-left: 0px;
-        margin-top: 30px;
-        font-size: 22px;
-        font-style: oblique;
-        margin-right: 0;
-    }
-    .colon {
-        font-size: 22px;
-        margin-top: 60px;
-        margin-left: 0px;
-    }
-    .title3 {
-        margin-top: 10px;
-        margin-left: 0;
-        font-size: 24px;
-        font-family: cursive;
-        font-style: italic;
-    }
-    .values {
-        font-size: 20px;
-        font-style: oblique;
-        margin-top: 10px;
-    }
-    .char {
-        margin-left: 18vw;
-        margin-bottom: 20px;
-        color: rgb(183, 111, 60);
-        width: 88vw;
-        font-size: 32px;
-        font-style: oblique;
-    }
-}
-@media only screen and (max-width: 325px) {
-    body {
-        background-color: #301934;
-        position: relative;
-    }
 
-    .Icon {
-        position: absolute;
-        font-size: 18px; /* Smaller icon size for very small screens */
-        left: 10px;
-        color: #4b5c68;
-        margin-top: 5px;
-    }
-
-    .Search {
-        position: relative;
-        left: 2px;
-        top: 50px;
-        height: 7vh;
-        width: 85vw; /* Adjust width to fit even smaller screens */
-        margin-top: 15px;
-        background-color: whitesmoke;
-        border-radius: 15px;
-        border: none;
-        padding: 5px;
-    }
-
-    .Search-but {
-        height: 6.7vh;
-        width: 10vmin;
-        top: 28vmin;
-        left: 55vmin; /* Adjust button position */
-        border: none;
-        border-radius: 20px;
-        position: absolute;
-        background-color: whitesmoke;
-    }
-
-    .fourComponents button {
-        position: relative;
-        top: 20vmin;
-        background-color: #301934;
-        color: whitesmoke;
-        left: 8vmin;
-        border: none;
-        border-radius: 20px;
-        font-size: 16px; /* Smaller font size for very small screens */
-        margin: 5px 8px;
-    }
-
-    .card {
-        display: flex;
-        margin-left: 2px;
-        margin-right: 2vmin;
-        margin-top: 45px;
-        padding: 10px;
-        border-radius: 15px; /* Reduced border-radius */
-        flex-direction: column;
-        flex-wrap: wrap;
-        background-color: whitesmoke;
-        height: auto;
-        width: auto;
-        align-self: auto;
-    }
-
-    .IMG {
-        height: 40vh; /* Smaller image height */
-        width: 65vw; /* Adjust width to fit smaller screens */
-    }
-
-    .second-board {
-        background-color: whitesmoke;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2px;
-        position: relative;
-        margin-left: 0;
-        height: auto;
-        width: 90vw; /* Adjust width for smaller screens */
-        border-radius: 15px; /* Reduced border-radius */
-        overflow: visible;
-    }
-
-    .Second-IMG {
-        width: 90vw;
-    }
-
-    .title2 {
-        margin-top: 10px;
-        margin-right: 0;
-        font-size: 24px; /* Smaller font size */
-        font-family: cursive;
-        font-style: italic;
-    }
-
-    .list {
-        margin-left: 0px;
-        margin-top: 20px;
-        font-size: 16px; /* Smaller font size */
-        font-style: oblique;
-        margin-right: 0;
-    }
-
-    .colon {
-        font-size: 16px; /* Smaller font size */
-        margin-top: 45px;
-        margin-left: 0px;
-    }
-
-    .title3 {
-        margin-top: 10px;
-        margin-left: 0;
-        font-size: 22px; /* Smaller font size */
-        font-family: cursive;
-        font-style: italic;
-    }
-
-    .values {
-        font-size: 18px; /* Smaller font size */
-        font-style: oblique;
-        margin-top: 10px;
-    }
-
-    .char {
-        margin-left: 10vw; /* Adjust margin for very small screens */
-        margin-bottom: 20px;
-        color: rgb(183, 111, 60);
-        width: 85vw; /* Adjust width */
-        font-size: 26px; /* Smaller font size */
-        font-style: oblique;
-    }
-}
 
