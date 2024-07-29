@@ -444,7 +444,7 @@ ul {
         font-style: oblique;
     }
 }
-@media only screen and (max-width: 338px) {
+@media only screen and (max-width: 325px) {
     body {
         background-color: #301934;
         position: relative;
@@ -452,30 +452,30 @@ ul {
 
     .Icon {
         position: absolute;
-        font-size: 22px; /* Smaller icon size for smaller screens */
-        left: 15px;
+        font-size: 18px; /* Smaller icon size for very small screens */
+        left: 10px;
         color: #4b5c68;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .Search {
         position: relative;
         left: 2px;
-        top: 45px;
+        top: 50px;
         height: 7vh;
-        width: 90vw; /* Adjust width to fit smaller screens */
-        margin-top: 20px;
+        width: 85vw; /* Adjust width to fit even smaller screens */
+        margin-top: 15px;
         background-color: whitesmoke;
         border-radius: 15px;
         border: none;
-        padding: 8px;
+        padding: 5px;
     }
 
     .Search-but {
         height: 6.7vh;
         width: 10vmin;
-        top: 33vmin;
-        left: 65vmin; /* Adjust button position */
+        top: 28vmin;
+        left: 55vmin; /* Adjust button position */
         border: none;
         border-radius: 20px;
         position: absolute;
@@ -487,19 +487,19 @@ ul {
         top: 20vmin;
         background-color: #301934;
         color: whitesmoke;
-        left: 10vmin;
+        left: 8vmin;
         border: none;
         border-radius: 20px;
-        font-size: 18px; /* Smaller font size for smaller screens */
-        margin: 5px 10px;
+        font-size: 16px; /* Smaller font size for very small screens */
+        margin: 5px 8px;
     }
 
     .card {
         display: flex;
         margin-left: 2px;
         margin-right: 2vmin;
-        margin-top: 50px;
-        padding: 15px;
+        margin-top: 45px;
+        padding: 10px;
         border-radius: 15px; /* Reduced border-radius */
         flex-direction: column;
         flex-wrap: wrap;
@@ -510,8 +510,8 @@ ul {
     }
 
     .IMG {
-        height: 45vh; /* Smaller image height */
-        width: 70vw; /* Adjust width to fit smaller screens */
+        height: 40vh; /* Smaller image height */
+        width: 65vw; /* Adjust width to fit smaller screens */
     }
 
     .second-board {
@@ -522,19 +522,19 @@ ul {
         position: relative;
         margin-left: 0;
         height: auto;
-        width: 92vw;
+        width: 90vw; /* Adjust width for smaller screens */
         border-radius: 15px; /* Reduced border-radius */
         overflow: visible;
     }
 
     .Second-IMG {
-        width: 92vw;
+        width: 90vw;
     }
 
     .title2 {
-        margin-top: 15px;
+        margin-top: 10px;
         margin-right: 0;
-        font-size: 28px; /* Smaller font size */
+        font-size: 24px; /* Smaller font size */
         font-family: cursive;
         font-style: italic;
     }
@@ -542,37 +542,38 @@ ul {
     .list {
         margin-left: 0px;
         margin-top: 20px;
-        font-size: 18px; /* Smaller font size */
+        font-size: 16px; /* Smaller font size */
         font-style: oblique;
         margin-right: 0;
     }
 
     .colon {
-        font-size: 18px; /* Smaller font size */
-        margin-top: 50px;
+        font-size: 16px; /* Smaller font size */
+        margin-top: 45px;
         margin-left: 0px;
     }
 
     .title3 {
         margin-top: 10px;
         margin-left: 0;
-        font-size: 24px; /* Smaller font size */
+        font-size: 22px; /* Smaller font size */
         font-family: cursive;
         font-style: italic;
     }
 
     .values {
-        font-size: 20px; /* Smaller font size */
+        font-size: 18px; /* Smaller font size */
         font-style: oblique;
         margin-top: 10px;
     }
 
     .char {
-        margin-left: 10vw; /* Adjust margin for smaller screens */
+        margin-left: 10vw; /* Adjust margin for very small screens */
         margin-bottom: 20px;
         color: rgb(183, 111, 60);
-        width: 90vw; /* Adjust width */
-        font-size: 28px; /* Smaller font size */
+        width: 85vw; /* Adjust width */
+        font-size: 26px; /* Smaller font size */
         font-style: oblique;
     }
 }
+
